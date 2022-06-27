@@ -2,13 +2,13 @@
     <h1>Belajar HTML Dasar</h1>
     <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar</p>
     <p>Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
-  </p>
+  
   ## Table of Contents
-  - [Table](#Table)
-  - [Table](#Table)
-  - [Table](#Table)
+  - [Table](#table)
+  - [Atribut](#atribut)
+  - [Struktur Table](#struktur-Table)
 
-## Table:
+## Table
 
 Untuk membuat tabel pada HTML, perintahnya harus ditulis diantara tag table, seperti berikut ini:
 
@@ -18,7 +18,7 @@ Untuk membuat tabel pada HTML, perintahnya harus ditulis diantara tag table, sep
 </Table>
 </pre>
 
-## atribut 
+## Atribut 
 atribut yang digunakan untuk menghias table adalah sebagai berikut:
 - border
   untuk membuat bingkai table
@@ -36,8 +36,8 @@ Untuk 3 atribut diatas lebih baik dilakukan dengan css
 
 struktur table dapat di bedakan menjadi dua, yaitu:
 
-- Simple
-  Kode yang dipakai:
+- ### Simple
+  ### Kode yang dipakai:
       <pre>
       <table border="1" cellspacing="0" cellpadding="10">
         <tr>
@@ -51,7 +51,7 @@ struktur table dapat di bedakan menjadi dua, yaitu:
       </table>
       </pre>
 
-  Output:
+  ### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
           <td>baris 1, kolom 1</td>
@@ -63,8 +63,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
         </tr>
       </table>
 
-- Kompleks
-  Kode yang dipakai:
+- ### Kompleks
+  ### Kode yang dipakai:
       <pre>
       <table border="1" cellspacing="0" cellpadding="10">
         <thead>
@@ -89,7 +89,7 @@ struktur table dapat di bedakan menjadi dua, yaitu:
       </table>
       </pre>
 
-  Output:
+  ### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <thead>
           <tr>
