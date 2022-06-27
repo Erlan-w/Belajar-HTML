@@ -1,45 +1,49 @@
 <p align="center">
     <h1 align="center">Belajar HTML Dasar</h1>
     <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar, <br> Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
+
   
   ## Table of Contents
   - [Table](#table)
   - [Atribut](#atribut)
   - [Struktur Table](#struktur-Table)
 
+
 ## Table
 Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag table.
 
   #### Tag Yang Digunakan:
-  
-  ```bash
+
+  ```html
       <Table>
         ... Tulis Kode Programnya Disini
       </Table>
   ```
 
+
 ## Atribut 
 atribut yang digunakan untuk menghias table adalah sebagai berikut:
-- ##### border
-  Digunakan untuk membuat bingkai table
-- ##### cellspacing
-  Digunakan untuk memperbesar garis cell (Bingkai atau border)
-- ##### cellpadding
-  untuk memberi jarak antara tulisan dengan garis border atau Bingkai
+1. ##### border
+    Digunakan untuk membuat bingkai atau border pada table
 
+2. ##### cellspacing
+    Digunakan untuk memperbesar garis cell (Bingkai atau border)
+3. ##### cellpadding
+    untuk memberi jarak antara tulisan dengan garis border atau Bingkai
 
 Untuk 3 atribut diatas lebih baik dilakukan dengan css
 
-- ##### colspan
-- ##### rowspan
+4. ##### colspan
+5. ##### rowspan
+
 
 ## Struktur Table
 
 struktur table dapat di bedakan menjadi dua, yaitu:
 
-- ### Simple
-  #### Kode yang dipakai:
-    
+1. ### Simple
+    #### Kode yang dipakai:
+    ```html
       <table border="1" cellspacing="0" cellpadding="10">
         <tr>
           <td>baris 1, kolom 1</td>
@@ -50,9 +54,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
           <td>baris 2, kolom 2</td>
         </tr>
       </table>
-    
-
-  #### Output:
+    ```
+    #### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
           <td>baris 1, kolom 1</td>
@@ -64,9 +67,10 @@ struktur table dapat di bedakan menjadi dua, yaitu:
         </tr>
       </table>
 
-- ### Kompleks
-  #### Kode yang dipakai:
-    
+
+2. ### Kompleks
+    #### Kode yang dipakai:
+    ```html
       <table border="1" cellspacing="0" cellpadding="10">
         <thead>
           <tr>
@@ -88,9 +92,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
             </tr>
           </tbody>
       </table>
-    
-
-  #### Output:
+    ```
+    #### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <thead>
           <tr>
