@@ -10,7 +10,8 @@
 ## Table
 Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag table.
 
-  #### Tag Yang Digunakan
+  #### Tag Yang Digunakan:
+  
   ```bash
       <Table>
         ... Tulis Kode Programnya Disini
@@ -20,11 +21,12 @@ Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag ta
 ## Atribut 
 atribut yang digunakan untuk menghias table adalah sebagai berikut:
 - ##### border
-  untuk membuat bingkai table
+  Digunakan untuk membuat bingkai table
 - ##### cellspacing
-  untuk memperbesar garis cell
+  Digunakan untuk memperbesar garis cell (Bingkai atau border)
 - ##### cellpadding
-  untuk memberi jarak antara tulisan dengan garis border
+  untuk memberi jarak antara tulisan dengan garis border atau Bingkai
+
 
 Untuk 3 atribut diatas lebih baik dilakukan dengan css
 
