@@ -14,11 +14,11 @@ Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag ta
 
 **Tag yang dipakai:**
 
-      ```html
-          <Table>
-            ... Tulis Kode Programnya Disini
-          </Table>
-      ```
+```html
+<table>
+  ... Tulis Kode Programnya Disini
+</table>
+```
 
 ## Atribut
 
@@ -72,7 +72,9 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
      </table>
 
 2. #### Kompleks
+
    **Kode yang dipakai:**
+
    ```html
    <table border="1" cellspacing="0" cellpadding="10">
      <thead>
@@ -99,6 +101,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
      </tbody>
    </table>
    ```
+
    **Output:**
    <table border="1" cellspacing="0" cellpadding="10">
        <thead>
