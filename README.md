@@ -1,7 +1,6 @@
 <p align="center">
-    <h1>Belajar HTML Dasar</h1>
-    <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar</p>
-    <p>Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
+    <h1 align="center">Belajar HTML Dasar</h1>
+    <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar <br> Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
   
   ## Table of Contents
   - [Table](#table)
@@ -9,14 +8,13 @@
   - [Struktur Table](#struktur-Table)
 
 ## Table
+Untuk membuat tabel pada HTML, perintahnya harus ditulis diantara tag table.
 
-Untuk membuat tabel pada HTML, perintahnya harus ditulis diantara tag table, seperti berikut ini:
+#### Tag Yang Digunakan
 
-<pre>
 <Table>
-  ...
+  ... Tulis Kode Programnya Disini
 </Table>
-</pre>
 
 ## Atribut 
 atribut yang digunakan untuk menghias table adalah sebagai berikut:
@@ -37,8 +35,8 @@ Untuk 3 atribut diatas lebih baik dilakukan dengan css
 struktur table dapat di bedakan menjadi dua, yaitu:
 
 - ### Simple
-  ### Kode yang dipakai:
-      <pre>
+  #### Kode yang dipakai:
+    
       <table border="1" cellspacing="0" cellpadding="10">
         <tr>
           <td>baris 1, kolom 1</td>
@@ -49,9 +47,9 @@ struktur table dapat di bedakan menjadi dua, yaitu:
           <td>baris 2, kolom 2</td>
         </tr>
       </table>
-      </pre>
+    
 
-  ### Output:
+  #### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
           <td>baris 1, kolom 1</td>
@@ -64,8 +62,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
       </table>
 
 - ### Kompleks
-  ### Kode yang dipakai:
-      <pre>
+  #### Kode yang dipakai:
+    
       <table border="1" cellspacing="0" cellpadding="10">
         <thead>
           <tr>
@@ -87,9 +85,9 @@ struktur table dapat di bedakan menjadi dua, yaitu:
             </tr>
           </tbody>
       </table>
-      </pre>
+    
 
-  ### Output:
+  #### Output:
     <table border="1" cellspacing="0" cellpadding="10">
         <thead>
           <tr>
