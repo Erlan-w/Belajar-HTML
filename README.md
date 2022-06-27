@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align="center">Belajar HTML Dasar</h1>
-    <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar <br> Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
+    <p align="center">Ini adalah Repository yang saya buat sebagai catatan materi HTML Dasar, <br> Materi ini akan saya lengkapi seiring dengan apa yang saya perlajari.</p>
   
   ## Table of Contents
   - [Table](#table)
@@ -8,27 +8,28 @@
   - [Struktur Table](#struktur-Table)
 
 ## Table
-Untuk membuat tabel pada HTML, perintahnya harus ditulis diantara tag table.
+Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag table.
 
-#### Tag Yang Digunakan
-
-<Table>
-  ... Tulis Kode Programnya Disini
-</Table>
+  #### Tag Yang Digunakan
+  ```bash
+      <Table>
+        ... Tulis Kode Programnya Disini
+      </Table>
+  ```
 
 ## Atribut 
 atribut yang digunakan untuk menghias table adalah sebagai berikut:
-- border
+- ##### border
   untuk membuat bingkai table
-- cellspacing
+- ##### cellspacing
   untuk memperbesar garis cell
-- cellpadding
+- ##### cellpadding
   untuk memberi jarak antara tulisan dengan garis border
 
 Untuk 3 atribut diatas lebih baik dilakukan dengan css
 
-- colspan
-- rowspan
+- ##### colspan
+- ##### rowspan
 
 ## Struktur Table
 
@@ -68,8 +69,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
         <thead>
           <tr>
             <th></th>
-            <td>Kolom 1</td>
-            <td>Kolom 2</td>
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
           <tr>
           </thead>
           <tbody>
@@ -92,8 +93,8 @@ struktur table dapat di bedakan menjadi dua, yaitu:
         <thead>
           <tr>
             <th></th>
-            <td>Kolom 1</td>
-            <td>Kolom 2</td>
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
           <tr>
           </thead>
           <tbody>
