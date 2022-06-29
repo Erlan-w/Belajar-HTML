@@ -91,8 +91,6 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
          <th>Kolom 1</th>
          <th>Kolom 2</th>
        </tr>
-
-       <tr></tr>
      </thead>
 
      <tbody>
@@ -135,7 +133,8 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
 
 ## Contoh penerapan colspan dan rowspan
 
-1. Tabel sebelum marging:
+1. #### Tabel sebelum marging:
+   
    **Kode yang dipakai:**
 
    ```html
@@ -177,7 +176,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        </tr>
      </table>
 
-2. Tabel setelah marging:
+2. #### Tabel setelah marging:
 
    a. colspan
 
@@ -296,7 +295,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
      </tr>
    </table>
 
-3. Latihan Membuat Tabel
+3. #### Latihan Membuat Tabel
 
    **Kode yang dipakai:**
 
