@@ -26,20 +26,25 @@ Atribut yang digunakan untuk menghias table adalah sebagai berikut:
 
 1. Border.
 
-    Digunakan untuk membuat bingkai atau border pada table
+   Digunakan untuk membuat bingkai atau border pada table
 
 2. Cellspacing
 
-    Digunakan untuk memperbesar garis cell (Bingkai atau border)
+   Digunakan untuk memperbesar garis cell (Bingkai atau border)
 
 3. Cellpadding
 
-    Untuk memberi jarak antara tulisan dengan garis border atau Bingkai
+   Untuk memberi jarak antara tulisan dengan garis border atau Bingkai
 
 Untuk 3 atribut diatas lebih baik dilakukan dengan css
 
 4. Colspan
+
+   digunakan untuk menggabungkan dua atau lebih cell secara **horizontal atau kolom**
+
 5. Rowspan
+
+   digunakan untuk menggabungkan dua atau lebih cell **secara vertikal atau baris**
 
 ## Struktur Table
 
