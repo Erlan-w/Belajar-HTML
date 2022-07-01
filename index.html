@@ -16,6 +16,10 @@
         list-style-type: lower-alpha;
       }
 
+      .elemen-form {
+        list-style: upper-latin;
+      }
+
     </style>
   </head>
 
@@ -186,7 +190,55 @@
         </table>
       </li>
     </ol>
-    
+
+    <h2>Form</h2>
+    <hr>
+    <h3>Element Form</h3>
+    <form>
+      <ol class="elemen-form">
+        <li>
+          <p>Input</p>
+          <ol>
+            <li>
+              <p>Type Text</p>
+              <p>Contoh:</p>
+              <label for="username">Username</label>
+              <input type="text" id="username">
+            </li>
+            <li>
+              <p>Password</p>
+              <p>Contoh:</p>
+              <label for="password">Password</label>
+              <input type="password" id="password">
+            </li>
+            <li>
+              <p>Radio</p>
+              <p>Contoh:</p>
+              <input type="radio" id="radio" name="jenis kelamin">
+              <label for="radio">Pria</label>
+              <input type="radio" id="radio" name="jenis kelamin">
+              <label for="radio">Wanita</label>
+            </li>
+            <li>
+              <p>checkbox</p>
+              <p>Contoh:</p>
+              <input type="checkbox" id="menyanyi">
+              <label for="menyanyi">Menyanyi</label>
+              <input type="checkbox" id="olahraga">
+              <label for="olahraga">Olahraga</label>
+              <input type="checkbox" id="membaca">
+              <label for="membaca">Membaca</label>
+            </li>
+            <br>
+            <li>
+              <p>Button: <button type="submit">Submit</button></p>
+            </li>
+          </ol>
+        </li>
+
+      </ol>
+
+    </form>
   </body>
 
 </html>
