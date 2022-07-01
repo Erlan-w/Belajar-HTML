@@ -18,7 +18,7 @@ Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag ta
 </table>
 ```
 
-## <h2 align="center" id="atribut">Atribut</h2>
+<h2 align="center" id="atribut">Atribut</h2>
 
 Atribut yang digunakan untuk menghias table adalah sebagai berikut:
 
@@ -44,7 +44,7 @@ Untuk 3 atribut diatas telah dianggap usang / deprecated, lebih baik dilakukan d
 
    digunakan untuk **menggabungkan / merging** dua atau lebih cell **secara vertikal atau baris**
 
-## <h2 align="center" id="struktur-Table">Struktur Table</h2>
+<h2 align="center" id="struktur-Table">Struktur Table</h2>
 
 Struktur table dapat di bedakan menjadi dua, yaitu:
 
@@ -129,7 +129,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
       </tbody>
     </table>
 
-## <h2 align="center" id="Contoh-penerapan-colspan-dan-rowspan">Contoh penerapan colspan dan rowspan</h2>
+<h2 align="center" id="Contoh-penerapan-colspan-dan-rowspan">Contoh penerapan colspan dan rowspan</h2>
 
 1. #### Tabel sebelum marging:
 
@@ -293,7 +293,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
      </tr>
    </table>
 
-## <h2 align="center" id="Latihan-Membuat-Tabel">Latihan Membuat Tabel</h2>
+<h2 align="center" id="Latihan-Membuat-Tabel">Latihan Membuat Tabel</h2>
 
    **Kode yang dipakai:**
 
