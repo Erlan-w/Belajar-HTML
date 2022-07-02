@@ -35,7 +35,7 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
 
     <br/>
 
-    > **Note** **:** <br/>
+    > 📝 **Note** **:** <br/>
         1. untuk input type submit, reset, button **tidak** dibuat menggunakan input tetapi **menggunakan tag button** <br/>
         2. untuk **memasukkan angka** tetap menggunakan **input type text**
 
@@ -81,7 +81,7 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
   
    <br/>
   
-    > **Note** **:** <br/>
+    > 📝 **Note** **:** <br/>
         1. **tag label** digunakan untuk **penanda/ memberikan info** tentang tag input <br/>
         2. atribut for & id **harus bernilai sama** antara tag input dan label <br/>
         3. agar dapat dipilih salah satu saja maka harus **ditambah atribut name** pada **input type radio** <br/>
@@ -106,7 +106,7 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
     untuk menandai element input
 
  <br/>
-<h2 align="center" id="pranala-menarik">Pranala Menarik</h2>
+<h2 align="center" id="pranala-menarik">Bacaan lebih lanjut</h2>
 
 - [Table](../table/TABLE.md)
 - [Dashboard](../README.md)
