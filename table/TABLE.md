@@ -35,6 +35,8 @@ Atribut yang digunakan untuk menghias table adalah sebagai berikut:
 
 Untuk 3 atribut diatas telah dianggap usang / deprecated, lebih baik dilakukan dengan css, disini tetap digunakan karena hanya untuk melihat efeknya pada tabel.
 
+ <br/>
+
 4. Colspan
 
    digunakan untuk **menggabungkan / merging** dua atau lebih cell secara **horizontal atau kolom**
