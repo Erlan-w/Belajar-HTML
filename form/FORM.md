@@ -1,8 +1,6 @@
 <p align="center">
   <h1 align="center">Form</h1>
 
-<br/>
-
 Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seperti dibawah ini.
 
 <br/>
@@ -15,34 +13,30 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
 </form>
 ```
 
-<br/>
-
 <h2 align="center" id="element-form">Element Form</h2>
 
-<br/>
 
 1. input
 
-    element ini digunakan agar user dapat memasukkan sesuatu dalam form, contoh penggunaannya seperti password, username, dll.
-<br/>
+    element ini digunakan agar user dapat memasukkan sesuatu dalam form, contoh penggunaannya seperti password, username, dll. <br/>
+
 
     a. jenis-jenis input
 
-    |Type | Kode | Output|
-    | :--- | :----: | :---: |
-    | text | ```<input type="text">``` | <input type="text" value="input type text" disabled> |
-    | password | ```<input type="password">``` | <input type="password" value="password" disabled> |
-    | radio | ```<input type="radio">``` | <input type="radio" disabled> |
-    | checkbox | ```<input type="checkbox">``` | <input type="checkbox" value="checkbox" disabled> |
-    | submit | ```<input type="submit">``` | <input type="submit" value="submit" disabled> |
-    | reset | ```<input type="reset">``` | <input type="reset" value="reset" disabled> |
-    | button | ```<input type="button">``` | <input type="button" value="button" disabled> |
-    |
+    |Type | Kode |
+    | :--- | :----: |
+    | Text | ```<input type="text">``` |
+    | Password | ```<input type="password">``` |
+    | Radio | ```<input type="radio">``` |
+    | Checkbox | ```<input type="checkbox">``` |
+    | Submit | ```<input type="submit">``` |
+    | Reset | ```<input type="reset">``` |
+    | Button | ```<input type="button">``` |
 
     <br/>
 
-    > :note: **Note:**
-        1. untuk input type submit, reset, button **tidak** dibuat menggunakan input tetapi **menggunakan tag button**
+    > **Note** **:** <br/>
+        1. untuk input type submit, reset, button **tidak** dibuat menggunakan input tetapi **menggunakan tag button** <br/>
         2. untuk **memasukkan angka** tetap menggunakan **input type text**
 
     <br/>
@@ -79,26 +73,22 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
       <button type="submit">Submit</button>
     </form>
     ```
-    <br/>
-
+    
     **Output:**
-    <label for="username">Username</label> <input type="text" id="username" disabled>
-      <br>
-    <input type="radio" id="radio" name="jenis kelamin" disabled><label for="radio" disabled>Pria</label><input type="radio" id="radio" name="jenis kelamin" disabled><label for="radio">Wanita</label>
-    <br>
-    <input type="checkbox" id="menyanyi" disabled><label for="menyanyi">Menyanyi</label><input type="checkbox" id="olahraga" disabled><label for="olahraga">Olahraga</label><input type="checkbox" id="membaca" disabled><label for="membaca">Membaca</label>
-    <br>
-    <button type="submit" disabled>Submit</button>
-    <br>
+    
+    > **Warning** **:** <br/>
+      Untuk output dari kode diatas silahkan langsung gunakan pada file HTML atau bisa download file index.html di halaman depan (dashboard).
+  
+   <br/>
+  
+    > **Note** **:** <br/>
+        1. **tag label** digunakan untuk **penanda/ memberikan info** tentang tag input <br/>
+        2. atribut for & id **harus bernilai sama** antara tag input dan label <br/>
+        3. agar dapat dipilih salah satu saja maka harus **ditambah atribut name** pada **input type radio** <br/>
+        4. untuk membuat **multiple choice** gunakan **tag input type checkbox** bukan **type radio** <br/>
 
-    > :note: **Note:** 
-        1. **tag label** digunakan untuk **penanda/ memberikan info** tentang tag input
-        2. atribut for & id **harus bernilai sama** antara tag input dan label
-        3. agar dapat dipilih salah satu saja maka harus **ditambah atribut name** pada **input type radio**
-        4. untuk membuat **multiple choice** gunakan **tag input type checkbox** bukan **type radio**
-
-    <br/>
-
+ <br/>
+ 
 2. textarea
 
     element ini mirip dengan input, hanya saja dengan textarea jumlah karakter yang dapat dimasukkan lebih banyak, contoh penggunaannya seperti pesan, komentar, alamat.
