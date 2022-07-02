@@ -1,14 +1,9 @@
 <p align="center">
   <h1 align="center">Table</h1>
 
-## Table of Contents
-
-- [Atribut](#atribut)
-- [Struktur Table](#struktur-Table)
-- [Contoh Penerapan](#Contoh-penerapan-colspan-dan-rowspan)
-- [Latihan Membuat Tabel](#Latihan-Membuat-Tabel)
-
 Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag table.
+
+ <br/>
 
 **Tag yang dipakai:**
 
@@ -17,6 +12,8 @@ Untuk membuat tabel pada halaman HTML, perintahnya harus ditulis diantara tag ta
   ... Tulis Kode Programnya Disini
 </table>
 ```
+
+ <br/>
 
 <h2 align="center" id="atribut">Atribut</h2>
 
@@ -44,11 +41,16 @@ Untuk 3 atribut diatas telah dianggap usang / deprecated, lebih baik dilakukan d
 
    digunakan untuk **menggabungkan / merging** dua atau lebih cell **secara vertikal atau baris**
 
-<h2 align="center" id="struktur-Table">Struktur Table</h2>
+
+
+
+ <br/>
+ 
+ <h2 align="center" id="struktur-Table">Struktur Table</h2>
 
 Struktur table dapat di bedakan menjadi dua, yaitu:
 
-1. #### Simple
+1. Simple
 
    **Kode yang dipakai:**
 
@@ -77,7 +79,9 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        </tr>
      </table>
 
-2. #### Kompleks
+ <br/>
+
+2. Kompleks
 
    **Kode yang dipakai:**
 
@@ -128,10 +132,12 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
         </tr>
       </tbody>
     </table>
+ 
+ <br/>
 
 <h2 align="center" id="Contoh-penerapan-colspan-dan-rowspan">Contoh penerapan colspan dan rowspan</h2>
 
-1. #### Tabel sebelum marging:
+1. Tabel sebelum marging:
 
    **Kode yang dipakai:**
 
@@ -174,7 +180,9 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        </tr>
      </table>
 
-2. #### Tabel setelah marging:
+ <br/>
+ 
+2. Tabel setelah marging:
 
    a. colspan
 
@@ -216,6 +224,8 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        <td>3,3</td>
      </tr>
    </table>
+   
+    <br/>
 
    b. rowspan
 
@@ -255,6 +265,8 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        <td>3,3</td>
      </tr>
    </table>
+ 
+ <br/>
 
    c. Penerapan colspan dan rowspan bersamaan pada tabel
 
@@ -292,6 +304,8 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        <td>3,3</td>
      </tr>
    </table>
+
+ <br/>
 
 <h2 align="center" id="Latihan-Membuat-Tabel">Latihan Membuat Tabel</h2>
 
@@ -351,3 +365,10 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
        <td>4,4</td>
      </tr>
    </table>
+
+ <br/>
+
+<h2 align="center" id="pranala-menarik">Pranala Menarik</h2>
+
+- [Form](../form/FORM.md)
+- [Dashboard](../README.md)
