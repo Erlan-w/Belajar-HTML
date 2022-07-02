@@ -31,6 +31,8 @@ Atribut yang digunakan untuk menghias table adalah sebagai berikut:
 
    Untuk memberi **jarak** antara tulisan dengan garis border atau Bingkai
 
+ <br/>
+
 Untuk 3 atribut diatas telah dianggap usang / deprecated, lebih baik dilakukan dengan css, disini tetap digunakan karena hanya untuk melihat efeknya pada tabel.
 
 4. Colspan
@@ -268,7 +270,7 @@ Struktur table dapat di bedakan menjadi dua, yaitu:
  
  <br/>
 
-   c. Penerapan colspan dan rowspan bersamaan pada tabel
+   c. penerapan colspan dan rowspan bersamaan pada tabel
 
    **Kode yang dipakai:**
 
