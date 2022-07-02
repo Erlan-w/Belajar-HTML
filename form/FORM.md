@@ -105,3 +105,8 @@ Membuat Form pada halaman HTML elementnya harus ditulis diantara tag form, seper
 
     untuk menandai element input
 
+ <br/>
+<h2 align="center" id="pranala-menarik">Pranala Menarik</h2>
+
+- [Table](../table/TABLE.md)
+- [Dashboard](../README.md)
